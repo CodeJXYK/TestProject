@@ -1,0 +1,56 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - GTMBase64 (1.0.0)
+  - IQKeyboardManager (5.0.4)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.14.1)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - pop (1.0.10)
+  - SDWebImage (4.1.2):
+    - SDWebImage/Core (= 4.1.2)
+  - SDWebImage/Core (4.1.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - GTMBase64
+  - IQKeyboardManager
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - NJKWebViewProgress
+  - pop
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  GTMBase64: 0da7372e95f5171f3f652db38cde6716f8eb5e24
+  IQKeyboardManager: 1df9c0f147af1681cfb2d9977bc30309d45a7e76
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: 238e6a37e2dba12160ee3b79f6d2a2b26abcab42
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
+
+PODFILE CHECKSUM: 005ef4d1fe6391f57268c43d987dd8c0a2be130f
+
+COCOAPODS: 1.2.0

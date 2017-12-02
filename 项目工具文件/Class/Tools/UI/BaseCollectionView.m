@@ -10,12 +10,26 @@
 
 @implementation BaseCollectionView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype) initWithFrame:(CGRect)frame{
+    if(self = [super initWithFrame:frame]){
+#ifdef __IPHONE_11_0
+        if (@available(iOS 11.0, *)) {
+            self.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        }
+#endif
+    }
+    return self;
 }
-*/
+
+- (instancetype) initWithFrame:(CGRect)frame collectionViewLayout:(UICollectionViewLayout *)layout{
+    if(self = [super initWithFrame:frame collectionViewLayout:layout]){
+#ifdef __IPHONE_11_0
+        if (@available(iOS 11.0, *)) {
+            self.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        }
+#endif
+    }
+    return self;
+}
 
 @end

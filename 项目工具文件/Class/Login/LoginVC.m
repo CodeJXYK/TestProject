@@ -7,6 +7,7 @@
 //
 
 #import "LoginVC.h"
+#import "MainTabBarController.h"
 
 @interface LoginVC ()
 
@@ -16,7 +17,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor redColor];
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    [button setTitle:@"Login" forState:UIControlStateNormal];
+    button.frame = CGRectMake(100, 100, 100, 50);
+    [button addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
+    
+    button.backgroundColor = [UIColor redColor];
+    
+    [self.view addSubview:button];
+    
+}
+
+- (void)buttonAction{
+    
+    [self dismissViewControllerAnimated:NO completion:nil];
+    
+//    
+//   
+//    UIWindow *window =  [UIApplication sharedApplication].delegate.window;
+//    window.rootViewController = [MainTabBarController shareInstance];
+    
+    
+}
+
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

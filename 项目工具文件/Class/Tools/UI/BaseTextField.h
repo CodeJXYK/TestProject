@@ -10,4 +10,9 @@
 
 @interface BaseTextField : UITextField
 
+/**字数限制*/
+@property (nonatomic , assign) NSUInteger wordLimitNum;
+/**提示文字颜色*/
+@property (nonatomic , strong) UIColor *placeholderColor;
+
 @end

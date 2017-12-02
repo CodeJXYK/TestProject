@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainTabBarController.h"
+#import "LoginVC.h"
 
 @interface AppDelegate ()
 
@@ -27,8 +28,10 @@
     MainTabBarController *mainTB = [[MainTabBarController alloc] init];
     
     self.window.rootViewController = mainTB;
+    //self.window.rootViewController = [[LoginVC alloc] init];
     
     [self.window makeKeyAndVisible];
+    
     
     return YES;
 }

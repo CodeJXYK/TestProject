@@ -9,9 +9,15 @@
 #import "HomeVC.h"
 #import "HomeViewController.h"
 #import "HttpClient.h"
+#import "HomeModel.h"
+#import "LoginVC.h"
+
+
 @interface HomeVC ()
 
 @property(nonatomic,strong) NSURLSessionDataTask *task;
+
+@property(nonatomic,strong) HomeModel *model;
 
 @end
 
@@ -42,6 +48,22 @@
     
     [self.view addSubview:button1];
     // Do any additional setup after loading the view.
+    
+    //(1)字典转模型 ，JSON字符串转模型
+    //_model = [HomeModel mj_objectWithKeyValues:@{}];
+    //(2)字典转模型
+    //(3)字典转模型
+    //(4)字典转模型
+    //(5)字典转模型
+    
+    //字典数组转成模型数组
+    
+    //模型转字典
+//    _model.mj_keyValues;
+//    //
+//    _model = [HomeModel mj_objectArrayWithKeyValuesArray:@[@{}]];
+    
+    [self presentViewController:[LoginVC new] animated:NO completion:nil];
 }
 
 - (void)buttonAction{

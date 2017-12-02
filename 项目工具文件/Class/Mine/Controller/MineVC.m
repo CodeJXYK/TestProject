@@ -7,8 +7,15 @@
 //
 
 #import "MineVC.h"
+#import "BaseAlertView.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIImage+GIF.h>
+#import <SDWebImage/UIImage+GIF.h>
+
 
 @interface MineVC ()
+
+
 
 @end
 
@@ -17,7 +24,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationBarAlpha = 1;
+    
+    self.view.backgroundColor = [UIColor grayColor];
     // Do any additional setup after loading the view.
+    
+     UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 100, 150, 150)];
+    
+    NSString *path = [[NSBundle bundleWithPath:[[NSBundle mainBundle] bundlePath]] pathForResource:@"loading_gif" ofType:@"gif"];
+    
+    NSData *data = [NSData dataWithContentsOfFile:path];
+    
+    imgView.image = [UIImage sd_animatedGIFWithData:data];
+    
+    [self.view addSubview:imgView];
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    BaseAlertView *alert = [BaseAlertView new];
+    
+    UIView *showView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 150, 150)];
+
+    showView.backgroundColor = [UIColor redColor];
+    
+    [alert showWithPanelView:showView];
+    
 }
 
 - (void)didReceiveMemoryWarning {

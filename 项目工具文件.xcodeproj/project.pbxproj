@@ -35,6 +35,14 @@
 		957EABBD1FB98BB20031075A /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 957EABBC1FB98BB20031075A /* HomeVC.m */; };
 		957EABC01FB98BCF0031075A /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 957EABBF1FB98BCF0031075A /* MineVC.m */; };
 		9587615E1FBC2CA3003CD121 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9587615D1FBC2CA3003CD121 /* BaseModel.m */; };
+		958AF8B51FC3B70000FA8B2E /* BaseAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 958AF8B41FC3B70000FA8B2E /* BaseAlertView.m */; };
+		958AF8B81FC3CBF700FA8B2E /* BaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 958AF8B71FC3CBF700FA8B2E /* BaseTextField.m */; };
+		958AF8BB1FC3CE9A00FA8B2E /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 958AF8BA1FC3CE9A00FA8B2E /* BaseTableView.m */; };
+		958AF8BE1FC3CEAC00FA8B2E /* BaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 958AF8BD1FC3CEAC00FA8B2E /* BaseScrollView.m */; };
+		958AF8C11FC3CED000FA8B2E /* BaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 958AF8C01FC3CED000FA8B2E /* BaseCollectionView.m */; };
+		958AF8C51FC3D35F00FA8B2E /* loading_gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 958AF8C41FC3D35F00FA8B2E /* loading_gif.gif */; };
+		95A5D64B1FC2BBDE004635B0 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A5D64A1FC2BBDE004635B0 /* LoginVC.m */; };
+		95DD29C91FBEBF5500C3ECE0 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DD29C81FBEBF5500C3ECE0 /* HomeModel.m */; };
 		9AE6ED76F8102A5C03C3EBA0 /* libPods-项目工具文件.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B5F3CEFB7979C9704E7E39 /* libPods-项目工具文件.a */; };
 /* End PBXBuildFile section */
 
@@ -115,6 +123,21 @@
 		957EABBF1FB98BCF0031075A /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
 		9587615C1FBC2CA3003CD121 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		9587615D1FBC2CA3003CD121 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		958AF8B31FC3B70000FA8B2E /* BaseAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseAlertView.h; sourceTree = "<group>"; };
+		958AF8B41FC3B70000FA8B2E /* BaseAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseAlertView.m; sourceTree = "<group>"; };
+		958AF8B61FC3CBF700FA8B2E /* BaseTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTextField.h; sourceTree = "<group>"; };
+		958AF8B71FC3CBF700FA8B2E /* BaseTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTextField.m; sourceTree = "<group>"; };
+		958AF8B91FC3CE9A00FA8B2E /* BaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		958AF8BA1FC3CE9A00FA8B2E /* BaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		958AF8BC1FC3CEAC00FA8B2E /* BaseScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseScrollView.h; sourceTree = "<group>"; };
+		958AF8BD1FC3CEAC00FA8B2E /* BaseScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseScrollView.m; sourceTree = "<group>"; };
+		958AF8BF1FC3CED000FA8B2E /* BaseCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCollectionView.h; sourceTree = "<group>"; };
+		958AF8C01FC3CED000FA8B2E /* BaseCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionView.m; sourceTree = "<group>"; };
+		958AF8C41FC3D35F00FA8B2E /* loading_gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_gif.gif; sourceTree = "<group>"; };
+		95A5D6491FC2BBDE004635B0 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		95A5D64A1FC2BBDE004635B0 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		95DD29C71FBEBF5500C3ECE0 /* HomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		95DD29C81FBEBF5500C3ECE0 /* HomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		BBB9FF9C3C314EA983AFDF81 /* Pods-项目工具文件.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-项目工具文件.release.xcconfig"; path = "Pods/Target Support Files/Pods-项目工具文件/Pods-项目工具文件.release.xcconfig"; sourceTree = "<group>"; };
 		D1B5F3CEFB7979C9704E7E39 /* libPods-项目工具文件.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-项目工具文件.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -227,6 +250,7 @@
 				957EAB7D1FB97C320031075A /* Base */,
 				957EAB951FB97C320031075A /* Home */,
 				957EAB971FB97C320031075A /* Mine */,
+				95A5D6481FC2BBA8004635B0 /* Login */,
 				957EAB981FB97C320031075A /* Tools */,
 			);
 			path = Class;
@@ -318,6 +342,16 @@
 		957EABAE1FB97DD50031075A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				958AF8B31FC3B70000FA8B2E /* BaseAlertView.h */,
+				958AF8B41FC3B70000FA8B2E /* BaseAlertView.m */,
+				958AF8B61FC3CBF700FA8B2E /* BaseTextField.h */,
+				958AF8B71FC3CBF700FA8B2E /* BaseTextField.m */,
+				958AF8B91FC3CE9A00FA8B2E /* BaseTableView.h */,
+				958AF8BA1FC3CE9A00FA8B2E /* BaseTableView.m */,
+				958AF8BC1FC3CEAC00FA8B2E /* BaseScrollView.h */,
+				958AF8BD1FC3CEAC00FA8B2E /* BaseScrollView.m */,
+				958AF8BF1FC3CED000FA8B2E /* BaseCollectionView.h */,
+				958AF8C01FC3CED000FA8B2E /* BaseCollectionView.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -343,6 +377,8 @@
 		957EABB71FB98B710031075A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				95DD29C71FBEBF5500C3ECE0 /* HomeModel.h */,
+				95DD29C81FBEBF5500C3ECE0 /* HomeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -386,6 +422,16 @@
 			children = (
 			);
 			path = OtherSDK;
+			sourceTree = "<group>";
+		};
+		95A5D6481FC2BBA8004635B0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				95A5D6491FC2BBDE004635B0 /* LoginVC.h */,
+				95A5D64A1FC2BBDE004635B0 /* LoginVC.m */,
+				958AF8C41FC3D35F00FA8B2E /* loading_gif.gif */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -499,6 +545,7 @@
 			files = (
 				957EABB41FB9887A0031075A /* Images.xcassets in Resources */,
 				9506BD871FB9261600EA6BD8 /* Assets.xcassets in Resources */,
+				958AF8C51FC3D35F00FA8B2E /* loading_gif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,17 +622,24 @@
 				957EABBD1FB98BB20031075A /* HomeVC.m in Sources */,
 				954161BF1FBD378700B57BD7 /* HttpServiceManager.m in Sources */,
 				957EAB9E1FB97C320031075A /* NSUserDefaults+Extension.m in Sources */,
+				958AF8C11FC3CED000FA8B2E /* BaseCollectionView.m in Sources */,
 				9587615E1FBC2CA3003CD121 /* BaseModel.m in Sources */,
 				957EABA11FB97C320031075A /* UIDevice+Extension.m in Sources */,
 				954161C21FBD59DA00B57BD7 /* HttpClient.m in Sources */,
 				9506BD821FB9261500EA6BD8 /* ViewController.m in Sources */,
 				957EABA61FB97C660031075A /* BaseVC.m in Sources */,
 				957EAB9A1FB97C320031075A /* NSArray+Extension.m in Sources */,
+				958AF8BE1FC3CEAC00FA8B2E /* BaseScrollView.m in Sources */,
+				958AF8BB1FC3CE9A00FA8B2E /* BaseTableView.m in Sources */,
+				958AF8B81FC3CBF700FA8B2E /* BaseTextField.m in Sources */,
 				957EAB9B1FB97C320031075A /* NSDate+Extension.m in Sources */,
 				957EABA01FB97C320031075A /* UIColor+Extension.m in Sources */,
 				9506BD8D1FB9261800EA6BD8 /* main.m in Sources */,
 				957EAB9C1FB97C320031075A /* NSDictionary+Extension.m in Sources */,
+				95A5D64B1FC2BBDE004635B0 /* LoginVC.m in Sources */,
 				957EABA21FB97C320031075A /* UIImage+Extension.m in Sources */,
+				958AF8B51FC3B70000FA8B2E /* BaseAlertView.m in Sources */,
+				95DD29C91FBEBF5500C3ECE0 /* HomeModel.m in Sources */,
 				957EABAC1FB97D370031075A /* MainTabBarController.m in Sources */,
 				957EABC01FB98BCF0031075A /* MineVC.m in Sources */,
 				9506BD7F1FB9261500EA6BD8 /* AppDelegate.m in Sources */,

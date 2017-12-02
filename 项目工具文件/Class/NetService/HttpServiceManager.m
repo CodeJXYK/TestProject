@@ -17,6 +17,7 @@
     dispatch_once(&onceToken, ^{
        
         _instance = [[self alloc] init];
+        
     });
     
     return _instance;

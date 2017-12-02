@@ -14,6 +14,8 @@
 #import "Common.h"
 #import "UIImage+Extension.h"
 
+#import "LoginVC.h"
+
 @interface MainTabBarController ()<UITabBarControllerDelegate>
 
 @property(nonatomic,strong) BaseNC *homeNC;
@@ -94,6 +96,7 @@
 
     self.viewControllers = @[_homeNC,_mineNC];
     self.selectedIndex = 0;
+    
     
     
 }
